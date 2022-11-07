@@ -3,6 +3,7 @@ import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import BgAnimation from "../components/BgAnimation/BgAnimation";
 import Projects from "../components/Projects/Projects";
+import Tech from "../components/technologies/Tech";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <BgAnimation />
       </Section>
       <Projects />
+      <Tech />
     </Layout>
   );
 }
