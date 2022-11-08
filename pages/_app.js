@@ -1,4 +1,4 @@
-import Theme from "../styles/theme";
+import Theme from "../styles/Theme";
 
 function MyApp({ Component, pageProps }) {
   return (

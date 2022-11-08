@@ -28,3 +28,11 @@ export const projects = [
     id: 0,
   },
 ];
+
+export const TimeLineData = [
+  { year: 2015, text: "Started my BSC IT Degree" },
+  { year: 2018, text: "Worked as a Spatial Data Analyst at Here Maps" },
+  { year: 2019, text: "Left the company to learn Web Development" },
+  { year: 2022, text: "Got a Job as Trainee Web Developer at Axioned" },
+  { year: 2022, text: "Started my own Business as a Freelancer" },
+];
