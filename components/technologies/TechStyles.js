@@ -50,6 +50,8 @@ export const List = styled.ul`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 32px 0;
   }
 `;
@@ -138,6 +140,9 @@ export const ListIcon = styled.img`
 
 export const IconContainer = styled.div`
   display: flex;
+  @media ${(props) => props.theme.breakpoints.md} {
+    align-items: center;
+  }
 `;
 export const PicturePadding = styled.picture`
   padding-right: 2rem;

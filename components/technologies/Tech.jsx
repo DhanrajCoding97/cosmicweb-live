@@ -1,9 +1,5 @@
 import React from "react";
-import { IconContext } from "react-icons";
 import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
   SiTailwindcss,
   SiReact,
   SiNextdotjs,
@@ -11,7 +7,6 @@ import {
   SiMongodb,
   SiFigma,
 } from "react-icons/si";
-import { DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -26,6 +21,7 @@ import {
   ListParagraph,
   ListTitle,
   PicturePadding,
+  TechContainer,
 } from "./TechStyles";
 
 const Tech = () => {
@@ -54,11 +50,14 @@ const Tech = () => {
             <ListTitle>Front-End</ListTitle>
             <ListParagraph>
               Experiece with <br />
-              React.js
+              React.js & NextJs
             </ListParagraph>
           </ListContainer>
         </ListItem>
         <ListItem>
+          <PicturePadding>
+            <SiExpress size="3rem" />
+          </PicturePadding>
           <picture>
             <SiMongodb size="3rem" />
           </picture>

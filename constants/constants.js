@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: "Star Instruments and Control",
-    description:
-      "Built this Front Eng Application Using Nextjs and tailwinid css",
-    image: "/images/sic.png",
-    tags: ["Nextjs", "TailwindCss"],
-    source: "https://github.com/DhanrajCoding97/sIc-tailwind-next-live",
-    visit: "https://sic-tau.vercel.app/",
-    id: 0,
-  },
-  {
     title: "Transpress",
     description: "Built this front end application using Html Css & Javascript",
     image: "/images/transpress.png",
@@ -26,5 +16,15 @@ export const projects = [
     source: "https://github.com/DhanrajCoding97/zayScss",
     visit: "https://dhanrajcoding97.github.io/zayScss/",
     id: 2,
+  },
+  {
+    title: "Star Instruments and Control",
+    description:
+      "Built this front end application Using Nextjs and tailwinid css",
+    image: "/images/sic.png",
+    tags: ["Nextjs", "TailwindCss"],
+    source: "https://github.com/DhanrajCoding97/sIc-tailwind-next-live",
+    visit: "https://sic-tau.vercel.app/",
+    id: 0,
   },
 ];
