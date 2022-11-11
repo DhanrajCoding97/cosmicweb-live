@@ -55,12 +55,14 @@ const Tech = () => {
           </ListContainer>
         </ListItem>
         <ListItem>
-          <PicturePadding>
-            <SiExpress size="3rem" />
-          </PicturePadding>
-          <picture>
-            <SiMongodb size="3rem" />
-          </picture>
+          <IconContainer>
+            <PicturePadding>
+              <SiExpress size="3rem" />
+            </PicturePadding>
+            <picture>
+              <SiMongodb size="3rem" />
+            </picture>
+          </IconContainer>
           <ListContainer>
             <ListTitle>Back-End</ListTitle>
             <ListParagraph>
@@ -70,9 +72,11 @@ const Tech = () => {
           </ListContainer>
         </ListItem>
         <ListItem>
-          <picture>
-            <SiFigma size="3rem" />
-          </picture>
+          <IconContainer>
+            <picture>
+              <SiFigma size="3rem" />
+            </picture>
+          </IconContainer>
           <ListContainer>
             <ListTitle>UI/UX</ListTitle>
             <ListParagraph>

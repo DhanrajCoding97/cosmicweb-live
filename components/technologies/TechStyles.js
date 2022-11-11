@@ -115,7 +115,6 @@ export const ListItem = styled.li`
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-bottom: 14px;
     max-width: 320px;
-    flex-direction: row;
   }
 `;
 
@@ -142,6 +141,7 @@ export const IconContainer = styled.div`
   display: flex;
   @media ${(props) => props.theme.breakpoints.md} {
     align-items: center;
+    justify-content: center;
   }
 `;
 export const PicturePadding = styled.picture`
