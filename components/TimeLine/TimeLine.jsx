@@ -67,10 +67,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I worked at here Maps after my Bsc IT Degree for a year since I wanted
-        to become a web developer so I left the company to learn web development
-        and found a job at axioned as a Trainee Web Developer and now I am a
-        FreeLancer{" "}
+        The purpose of JavaScript Mastery is to help aspiring and established
+        developers to take their development skills to the next level and build
+        awesome apps.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -86,7 +85,7 @@ const Timeline = () => {
                 onClick={(e) => handleClick(e, index)}
               >
                 <CarouselItemTitle>
-                  {`${item.year}`}
+                  {item.year}
                   <CarouselItemImg
                     width="208"
                     height="6"
@@ -127,19 +126,17 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => {
-          return (
-            <CarouselButton
-              key={index}
-              index={index}
-              active={activeItem}
-              onClick={(e) => handleClick(e, index)}
-              type="button"
-            >
-              <CarouselButtonDot active={activeItem} />
-            </CarouselButton>
-          );
-        })}
+        {TimeLineData.map((item, index) => (
+          <CarouselButton
+            key={index}
+            index={index}
+            active={activeItem}
+            onClick={(e) => handleClick(e, index)}
+            type="button"
+          >
+            <CarouselButtonDot active={activeItem} />
+          </CarouselButton>
+        ))}
       </CarouselButtons>
       <SectionDivider />
     </Section>

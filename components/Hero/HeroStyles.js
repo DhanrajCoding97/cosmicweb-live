@@ -15,3 +15,17 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const WhatsappButton = styled.a`
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+`;

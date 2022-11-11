@@ -5,6 +5,7 @@ import BgAnimation from "../components/BgAnimation/BgAnimation";
 import Projects from "../components/Projects/Projects";
 import Tech from "../components/technologies/Tech";
 import Timeline from "../components/TimeLine/TimeLine";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Tech />
       <Timeline />
+      <Footer />
     </Layout>
   );
 }
